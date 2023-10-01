@@ -19,7 +19,7 @@ export default function CourseComponent({data,key}:CourseComponent) {
             <div className=" cursor-pointer hover:opacity-80">
 
                 <div className="p-1">
-                    <h3 className="text-[16px]">{data.id}</h3>
+                    <h3 className="text-[16px]">{data.name}</h3>
                     <span className="text-gray-400 block text-[9px] font-normal">{data.tutorId}</span>
                     <span>$ {data.description}</span>
                 </div>

@@ -29,7 +29,8 @@ export default async function Home({searchParams}: HomeProps) {
             {courses.map((item:any) => (
               <CourseComponent
                 key={item.id}
-                data={item}              />
+                data={item}              
+                />
             ))}
           </div>
 
