@@ -4,8 +4,9 @@ import SliderMain from "./(components)/SliderMain";
 import getAllCourses from "./actions/getAllCourses";
 
 const images = [
-  "/a.jpg",
-  "b.jpg"
+  "/c.jpg",
+  "b.jpg",
+  "a.jpg"
 ]
 
 interface HomeProps {
